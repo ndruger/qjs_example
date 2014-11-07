@@ -65,12 +65,13 @@ Q.jsはJavaScriptのPromises/A+の実装の一つ。
 * [JSDeferred](http://cho45.stfuawsc.com/jsdeferred/)
 	* シンプル。doneがない
 	* CommonJSのPromiseとは大きく違う
+* [q](http://documentup.com/kriskowal/q/)
+	* 利用者が多くある程度の機能
 * [Bluebird](https://github.com/petkaantonov/bluebird)
+	* 高機能で奇麗(主観)
 	* キャッチする例外の型による指定ができる
 	* props, bindなどで値を奇麗に渡せる
 	* map, reduce, filter, eachなどのコレクション操作がある
-* [q](http://documentup.com/kriskowal/q/)
-	* 利用者が多く高機能
 
 ## Promiseの利用例
 
