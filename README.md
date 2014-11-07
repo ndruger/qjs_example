@@ -107,3 +107,16 @@ C#に合わせてAsyncを付けるのがよさそう。だが、Q.jsのPromise�
 ### 複数の引数を後に渡したい
 
 .spread()で配列の展開はできるが、それならまだhashを返した方が拡張性やミスの少なさという意味でいいと思う。
+
+### 配列に対しての直列非同期処理が面倒
+
+要はseriesがない。
+
+[node.js - While loop with promises - Stack Overflow](http://stackoverflow.com/questions/17217736/while-loop-with-promises)
+
+[jsDeferredの場合](jsdeferred_loop.js)
+
+[Bluebirdの場合](bluebird_series.js)
+
+自分で書くか、拡張ライブラリを使う。
+
